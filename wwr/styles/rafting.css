@@ -1,0 +1,68 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Define CSS variables */
+:root {
+  --primary-color: #3f51b5;
+  --secondary-color: #f50057;
+  --text-color: #333;
+}
+
+/* Body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings and paragraphs */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+}
+
+p {
+  color: var(--text-color);
+}
+
+/* Navigation links */
+nav a {
+  text-decoration: none;
+}
+
+/* Hero Container */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Hero content */
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.hero article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  max-width: 80%;
+}
+
+.hero article img {
+  float: right;
+  margin-left: 20px;
+}
