@@ -20,7 +20,7 @@ h2 {
     --nav-hover-background-color:var(--accent2-color);
 }
 header {
-    padding: 20px;
+       padding: 20px;
     background-color: var(--secondary-color);
 }
 p {
