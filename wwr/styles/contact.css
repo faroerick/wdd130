@@ -3,11 +3,12 @@
     display: flex;
     justify-content: center; /* Centralizar os itens horizontalmente */
     flex-wrap: nowrap; /* Impede que os elementos quebrem para a próxima linha */
+    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal caso os elementos não caibam na tela */
     margin-top: 20px;
 }
 
 .employee {
-    width: 450px; 
+    width: 450px; /* Ajuste para 450px de largura */
     margin-right: 20px; /* Espaçamento entre as imagens */
     text-align: center;
     padding: 20px;
@@ -33,9 +34,9 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Seção Send Us a Message */
+/* Estilizando a seção Send Us a Message */
 .contact-form {
-    background-color: #000; 
+    background-color: #000; /* Fundo preto */
     color: #fff; /* Texto branco */
     padding: 50px;
     border-radius: 0; /* Remover borda arredondada */
@@ -62,21 +63,21 @@
 .contact-form textarea {
     width: 100%;
     padding: 15px;
-    font-size: 16px; 
+    font-size: 16px; /* Tamanho da fonte */
     border-radius: 5px;
     border: none;
     margin-bottom: 20px; /* Espaçamento inferior entre os campos */
 }
 
 .contact-form textarea {
-    height: 150px; 
+    height: 150px; /* Altura do campo de texto */
 }
 
 .contact-form button {
     padding: 15px 30px;
-    font-size: 16px; 
-    background-color: #fff; 
-    color: #000; 
+    font-size: 16px; /* Tamanho da fonte do botão */
+    background-color: #fff; /* Cor de fundo do botão */
+    color: #000; /* Cor do texto do botão */
     border: none;
     border-radius: 5px;
     cursor: pointer;
