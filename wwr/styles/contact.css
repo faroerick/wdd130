@@ -1,0 +1,88 @@
+/* Efeitos nas imagens dos funcionários */
+.employees {
+    display: flex;
+    justify-content: center; /* Centralizar os itens horizontalmente */
+    flex-wrap: nowrap; /* Impede que os elementos quebrem para a próxima linha */
+    margin-top: 20px;
+}
+
+.employee {
+    width: 450px; 
+    margin-right: 20px; /* Espaçamento entre as imagens */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.employee:last-child {
+    margin-right: 0; /* Remove a margem da última imagem para evitar espaço extra */
+}
+
+.employee img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.employee p {
+    margin-top: 10px;
+}
+
+.employee:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção Send Us a Message */
+.contact-form {
+    background-color: #000; 
+    color: #fff; /* Texto branco */
+    padding: 50px;
+    border-radius: 0; /* Remover borda arredondada */
+    text-align: center;
+    width: 100%; /* Largura total */
+}
+
+.contact-form h2 {
+    margin-bottom: 20px; /* Espaçamento inferior entre os títulos */
+}
+
+.contact-form form {
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px; /* Espaçamento inferior entre os rótulos */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px; 
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px; /* Espaçamento inferior entre os campos */
+}
+
+.contact-form textarea {
+    height: 150px; 
+}
+
+.contact-form button {
+    padding: 15px 30px;
+    font-size: 16px; 
+    background-color: #fff; 
+    color: #000; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+    background-color: #ccc; /* Cor de fundo do botão ao passar o mouse */
+}
