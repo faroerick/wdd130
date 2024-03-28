@@ -1,45 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
-body {
-    font-family: Courier;
-    max-width: 960px;
-    padding: 20px;
-}
-h2 {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-}
 :root {
     --primary-color: #404D58;
     --secondary-color: #A39EAB;
     --accent1-color: #E3CED6;
     --accent2-color: #453D3E;
-
-    --nav-background-color:var(--primary-color);
-    --nav-link-color:var(--secondary-color);
-    --nav-hover-link-color:var(--accent1-color);
-    --nav-hover-background-color:var(--accent2-color);
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: var(--secondary-color);
+    --nav-hover-link-color: var(--accent1-color);
+    --nav-hover-background-color: var(--accent2-color);
 }
+
+body {
+    font-family: Courier;
+    max-width: 960px;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
+
 header {
-       padding: 20px;
+    padding: 20px;
     background-color: var(--secondary-color);
 }
+
 p {
     padding: 25px;
 }
+
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
+
 nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
-nav a:link, nav a:visited {
+
+nav a:link,
+nav a:visited {
     color: var(--nav-link-color);
 }
+
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
