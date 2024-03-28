@@ -1,3 +1,6 @@
+/* External CSS */
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -44,14 +47,12 @@ main img {
 hr {
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 20px auto; /*Ajuste para centralizar a linha */
+  margin: 20px auto; /* Ajuste para centralizar a linha */
 }
 
 aside {
   width: 20rem;
-  position: relative;
-  grid-column: 1/2;
-  grid-row: 1/2;
+  position: relative; /* Alterado para 'relative' conforme solicitado */
 }
 
 aside img {
@@ -74,6 +75,7 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
+
 /* Class Selectors */
 .box {
   margin: 1rem;
@@ -83,17 +85,19 @@ footer {
   color: #000;
 }
 
-
-header, footer {
+/* Header and Footer */
+header, footer, .grid {
   max-width: 840px;
   margin: 0 auto;
 }
 
+/* Grid */
 .grid {
   display: grid;
   align-items: center;
 }
 
+/* Font Import */
 .adamina-regular {
   font-family: "Adamina", serif;
   font-weight: 400;
