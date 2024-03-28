@@ -5,6 +5,8 @@
     --secondary-color: #A39EAB;
     --accent1-color: #E3CED6;
     --accent2-color: #453D3E;
+    --heading-font: 'Rock Salt', 'Bradley Hand', sans-serif;
+    --paragraph-font: Courier;
     --nav-background-color: var(--primary-color);
     --nav-link-color: var(--secondary-color);
     --nav-hover-link-color: var(--accent1-color);
@@ -12,13 +14,13 @@
 }
 
 body {
-    font-family: Courier;
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
-h2 {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
 }
 
 header {
