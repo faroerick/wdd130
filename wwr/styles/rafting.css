@@ -128,3 +128,53 @@ header {
 .rafting-title {
   font-size: 0.1rem;
 }
+
+.trip {
+  display: flex;
+  margin-bottom: 20px; /* Adiciona espaço entre as viagens */
+}
+
+.trip img {
+  margin-right: 20px; /* Adiciona espaço entre a imagem e o texto */
+}
+
+.trip-info {
+  flex: 1; /* Ocupa o restante do espaço disponível */
+}
+
+.trip-table {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.trip-table-container {
+  display: inline-block; /* Permite centralizar o conteúdo */
+  text-align: left; /* Alinha o conteúdo do container à esquerda */
+  max-width: 600px; /* Define a largura máxima do container */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+}
+
+.trip-table table {
+  width: 100%; /* Ocupa toda a largura do container */
+  border-collapse: collapse; /* Remove espaços entre as células da tabela */
+}
+
+.trip-table th, .trip-table td {
+  padding: 8px; /* Adiciona espaçamento interno */
+  border: 1px solid #ddd; /* Adiciona bordas */
+}
+
+.trip-table th {
+  background-color: #f2f2f2; /* Adiciona uma cor de fundo para os cabeçalhos */
+}
+
+.call-to-action {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.call-to-action-container {
+  display: inline-block; /* Permite centralizar o conteúdo */
+  text-align: center; /* Alinha o conteúdo do container à esquerda */
+  max-width: 600px; /* Define a largura máxima do container */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+}
+
