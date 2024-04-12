@@ -178,3 +178,7 @@ header {
   margin: 0 auto; /* Centraliza o container horizontalmente */
 }
 
+.newsletter {
+  text-align:center;
+}
+

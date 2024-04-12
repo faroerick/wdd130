@@ -1,60 +1,82 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Erick Faro | WDD 130</title>
-    <meta name="description" content="Erick Faro - BYU Idaho WDD 130 Course Home Page">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting Adventures | Home | WDD 130</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description" content="White Water Rafting.">
     <meta name="author" content="Erick Faro">
-    <link rel="stylesheet" href="styles/styles.css"/> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Adamina&display=swap" rel="stylesheet">  
 </head>
-<body> 
-<header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="wwr/">Rafting Website</a>
-        <a href="https://www.linkedin.com/in/erickfaro" target="_blank">Linkedin Profile</a>
-        <a href="https://www.facebook.com" target="_blank">Facebook</a>
-        <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>     
-    </nav>
-</header>
-<div class="grid"> 
-    <main>
-        <h1> Erick Faro | WDD 130 </h1>
-        <hr> <!-- Linha separadora -->
-        <img src="images/profile.JPG" alt="Erick Faro profile picture." width="200" style="float: right; margin-left: 20px;">
-        <p>
-            Hello there! I'm Erick Faro, a 25-year-old Brazilian hailing from the bustling city of Rio de Janeiro. My passions lie in the worlds of football and music, which have been part of my life since I can remember.
-        </p>
-        <p>
-            When I'm not kicking a ball or strumming my guitar, you'll often find me enjoying quality time with my family. We love nothing more than gathering for weekend barbecues and game nights. And when it's time to unwind, you can bet I'll be catching a movie or getting lost in a good book.
-        </p>
-        <p>
-            I'm also a big believer in lifelong learning. Whether it's picking up a new hobby or diving into a subject that piques my interest, I'm always eager to expand my horizons.
-        </p>
-        <p>
-            In a nutshell, I'm just a guy who loves his family, enjoys the simple things in life, and is always up for a new adventure!
-        </p>
-        
-        <ul>
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/philadelphia-pennsylvania-temple" target="_blank">Philadelphia Pennsylvania Temple</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/paris-france-temple" target="_blank">Paris France Temple</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/temples/details/lima-peru-los-olivos-temple" target="_blank">Lima Peru Los Olivos Temple</a></li>
-        </ul>
-    </main>
-    <aside>
-        <h2> Brazil </h2>
-        <img src="images/rio.jpg" alt="Rio de Janeiro landscape" width="200">
-        <p>Rio de Janeiro is the most beautiful state of Brazil.</p>
-    </aside>
-</div>
-<footer>
-    <p>©️ 2024 Erick Faro - Brazil </p>
-</footer>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Rafting Adventures Logo" class="logo">
+        <nav>
+            <ul class="navigation">       
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>    
+        </nav>
+    </header>
 
-<!-- Last modified: March 22, 2024 -->
+    <main>
+            <div class="hero">
+                <img src="images/background.jpg" alt="Hero Image">
+                <div class="overlay">
+                    <h1 class="overlay-title">Welcome to White Water Rafting!</h1>
+                    <p class="overlay-text">We're thrilled to have you here. Dive into the excitement of white water rafting with us! Explore our website to discover thrilling adventures, breathtaking destinations, and unforgettable experiences waiting just for you. </p>
+                    <hr>                                    
+                    <p class="overlay-text"> Start your adventure now and book your rafting trip with us!</p>
+                </div>
+                <img src="images/happyclient.jpeg" alt="Happy Client" class="happy-client">
+            </div>    
+
+        <section class="newsletter">
+            <h2>Sign Up for Our Newsletter</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+        
+        <section class="call-to-action">
+            <p>Ready for an adventure?</p>
+            <a href="trips.html" class="cta-button">Explore Our Trips</a>
+        </section>
+        <hr>
+
+        <section class="grid-layout">
+            <div class="grid-item">
+                <h3>Experience the Thrill</h3>
+                <p>Join us for an unforgettable rafting experience on some of the most exciting rivers in the world.</p>
+                <img src="images/rafting1.jpg" alt="Rafting Image"  width="1900">  
+            </div>
+            <hr>
+            <div class="grid-item">
+                <h3>Family-Friendly Trips</h3>
+                <p>We offer trips suitable for adventurers of all ages, so bring the whole family along for the ride!</p>
+                <img src="images/canyon.jpg" alt="Rafting Image" width="1900">
+            </div>
+            <hr>
+        </section>
+    </main>
+
+    <footer>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook" width="30">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter" width="30">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram" width="30">
+            </a>
+        </nav>
+        <p><a href="wireframe.jpg">Home Page Wireframe</a></p>
+    </footer>
 </body>
 </html>
