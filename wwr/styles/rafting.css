@@ -5,7 +5,7 @@
 :root {
   --primary-color: #3f51b5;
   --secondary-color: #f50057;
-  --text-color: #616161; /* Alterado para cinza */
+  --text-color: #616161; 
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-color: #ffffff; /* Alterado para branco */
+  background-color: #ffffff; 
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -66,7 +66,7 @@ header {
   max-width: 100%;
   color: #ffffff;
   font-family: 'Courier New', monospace;
-  text-align: center; /* Centralizar texto */
+  text-align: center; 
 }
 
 .overlay-title {
@@ -97,13 +97,13 @@ header {
 }
 
 .history-image {
-  width: 50%; /* Define a largura da imagem */
-  margin-right: 20px; /* Adiciona margem à direita para espaçamento */
+  width: 50%; 
+  margin-right: 20px; 
 }
 
 .history-text {
-  width: 95%; /* Define a largura do texto */
-  padding: 0 20px; /* Adiciona um espaçamento interno */
+  width: 95%; 
+  padding: 0 20px; 
 }
 
 .rafting-images-section {
@@ -143,39 +143,39 @@ header {
 }
 
 .trip-table {
-  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  text-align: center; 
 }
 
 .trip-table-container {
-  display: inline-block; /* Permite centralizar o conteúdo */
-  text-align: left; /* Alinha o conteúdo do container à esquerda */
-  max-width: 600px; /* Define a largura máxima do container */
-  margin: 0 auto; /* Centraliza o container horizontalmente */
+  display: inline-block; 
+  text-align: left; 
+  max-width: 600px; 
+  margin: 0 auto; 
 }
 
 .trip-table table {
   width: 100%; /* Ocupa toda a largura do container */
-  border-collapse: collapse; /* Remove espaços entre as células da tabela */
+  border-collapse: collapse; 
 }
 
 .trip-table th, .trip-table td {
   padding: 8px; /* Adiciona espaçamento interno */
-  border: 1px solid #ddd; /* Adiciona bordas */
+  border: 1px solid #ddd; 
 }
 
 .trip-table th {
-  background-color: #f2f2f2; /* Adiciona uma cor de fundo para os cabeçalhos */
+  background-color: #f2f2f2; 
 }
 
 .call-to-action {
-  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  text-align: center; 
 }
 
 .call-to-action-container {
   display: inline-block; /* Permite centralizar o conteúdo */
-  text-align: center; /* Alinha o conteúdo do container à esquerda */
-  max-width: 600px; /* Define a largura máxima do container */
-  margin: 0 auto; /* Centraliza o container horizontalmente */
+  text-align: center;
+  max-width: 600px; 
+  margin: 0 auto; 
 }
 
 .newsletter {
